@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Mensagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Decodificador de Mensagens</h1>
+    </header>
+    <main>
+        <textarea id="inputText" placeholder="Digite o texto aqui..."name="texto" id="" cols="30" rows="10"></textarea>
+        <div class="buttons">
+            <button onclick="criptografar()">Criptografar</button>
+            <button onclick="descriptografar()">Descriptografar</button>
+            <button id="copyButton" onclick="copiarTexto()">Copiar</button>
+        </div>
+        <div id="output" class="output">
+            <p id="outputText"></p>
+            <img src="html.svg">
+            <h2>a</h2>
+            <h3>Apenas letras minusculas e sem assento</h3>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por Marcio Gleide</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
